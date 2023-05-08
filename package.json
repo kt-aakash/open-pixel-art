@@ -7,6 +7,7 @@
     "configure:merge-driver": "node scripts/configureMergeDriver.js",
     "sync-fork": "node scripts/sync.js",
     "format:sort-pixels": "node scripts/sortPixels.js",
+    "sort:open-pixels": "node scripts/sortPixels.js",
     "lint-staged": "lint-staged",
     "start": "eleventy --serve",
     "build": "eleventy",
@@ -37,13 +38,13 @@
     "jest": "^26.0.1",
     "json-stringify-pretty-compact": "^2.0.0",
     "lint-staged": "^9.4.1",
-    "mock-fs": "^4.10.1",
+    "mock-fs": "^5.1.2",
     "npm-run-all": "^4.1.5",
     "ora": "^4.0.2",
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "nes.css": "^2.2.0"
+    "nes.css": "^2.3.0"
   },
   "husky": {
     "hooks": {
